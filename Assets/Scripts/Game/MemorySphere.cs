@@ -21,5 +21,10 @@ namespace MemoryMarble
         {
             return _lifeTime / _lifeTimeDuration;
         }
+
+        public void ResetLife()
+        {
+            _lifeTime = _lifeTimeDuration;
+        }
     }
 }

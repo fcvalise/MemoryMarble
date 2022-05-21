@@ -175,6 +175,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5553558350655717065}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &352728834
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 352728835}
+  - component: {fileID: 352728836}
+  m_Layer: 0
+  m_Name: LifeEmitter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &352728835
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 352728834}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1107612399}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &352728836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 352728834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc82088b398f2334c8cbc7ab742da981, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &422545172
 GameObject:
   m_ObjectHideFlags: 0
@@ -373,6 +417,7 @@ Transform:
   m_Children:
   - {fileID: 4342824}
   - {fileID: 1477212090}
+  - {fileID: 352728835}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -415,22 +460,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1825658761, guid: 4fbf3e3cdb25d73448f9ac08a4888b54, type: 3}
-      propertyPath: _massCurve.m_Curve.Array.data[1].time
-      value: 0.44903854
-      objectReference: {fileID: 0}
-    - target: {fileID: 1825658761, guid: 4fbf3e3cdb25d73448f9ac08a4888b54, type: 3}
-      propertyPath: _massCurve.m_Curve.Array.data[2].time
-      value: 0.63737833
-      objectReference: {fileID: 0}
-    - target: {fileID: 1825658761, guid: 4fbf3e3cdb25d73448f9ac08a4888b54, type: 3}
-      propertyPath: _massCurve.m_Curve.Array.data[1].value
-      value: -0.8513534
-      objectReference: {fileID: 0}
-    - target: {fileID: 1825658761, guid: 4fbf3e3cdb25d73448f9ac08a4888b54, type: 3}
-      propertyPath: _massCurve.m_Curve.Array.data[2].value
-      value: -0.6768937
-      objectReference: {fileID: 0}
     - target: {fileID: 1079091222503625940, guid: 4fbf3e3cdb25d73448f9ac08a4888b54,
         type: 3}
       propertyPath: m_RootOrder
@@ -924,6 +953,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1674511586}
     m_Modifications:
+    - target: {fileID: 2393729349514409251, guid: f6cc40057c630d043a72f5839f04da90,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3312773528549382798, guid: f6cc40057c630d043a72f5839f04da90,
         type: 3}
       propertyPath: m_Name
