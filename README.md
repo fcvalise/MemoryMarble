@@ -1,6 +1,9 @@
 # MemoryMarble
 Welcome to Spoon's technical exercise created by François Corbel
 
+How to test
+  - [Download windows build](https://github.com/fcvalise/MemoryMarble/releases/download/v0.1/Build.zip)
+
 How to inspect the project
   - Open the project with Unity 2021.3.2f1
   - Open scene located in Assets/2Hours/Scenes/MemoryMarble
