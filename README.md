@@ -11,9 +11,9 @@ How to interact (2hours version)
   2. When memories fade and start flying, click on them to inject light
 
 How to interact (5hours version)
+  1. Talk to the creature to create memories
+  2. Say the words again to recall memories
+
   The original idea (next steps) is roughly prototyped in the 5 hours version.
   I'm aware it's out of the scope of your exercise because there's a creature and it took me about 5 hours.
   Unfortunatly, the pluggins I used for speech reocognition and face tracking seems to lack consistency.
-
-  1. Talk to the creature to create memories
-  2. Say the words again to recall memories
