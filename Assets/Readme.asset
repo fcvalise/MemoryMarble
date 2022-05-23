@@ -19,7 +19,14 @@ MonoBehaviour:
     text: Welcome to Spoon's technical exercise created by François Corbel
     linkText: 
     url:
-  - heading: How to interact
-    text:
-
+  - heading: How to interact (2hours version)
+  - text: 1. Click on the UI Button to create memories
+  - text: 2. Click on memories to inject light to them
+  - text:
+  - heading: How to interact (5hours version)
+  - text: The original idea is roughly prototyped in the 5 hours version.
+  - text: I'm aware it's out of the scope of your exercise because there's a creature and it took me about 5 hours.
+  - text: Unfortunatly, the pluggins used for speech reocognition and face tracking seems to lack consistency.
+  - text: 1. Talk to the creature to create memories
+  - text: 2. Say the words again to recall memories
   loadedLayout: 1
